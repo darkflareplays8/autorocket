@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "autorocket",
+  "version": "1.0.0",
+  "name": "Auto Rocket+",
+  "description": "Automatically uses fireworks while elytra flying",
+  "authors": ["ProfessionalFlare"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autorocket.AutoRocketMod"
+    ],
+    "modmenu": [
+      "com.example.autorocket.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21 <=1.21.9",
+    "fabric-api": "*",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
